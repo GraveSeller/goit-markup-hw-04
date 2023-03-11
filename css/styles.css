@@ -147,8 +147,16 @@ button {
 /* Main */
 .main-hero {
   background-color: var(--dark);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/main-hero-img.jpg);
+  background-position: center;
+  background-size: auto;
   padding: 152px 0 188px 0;
 }
+
 .main-hero-intro {
   font-size: 56px;
   line-height: 1.07;
@@ -291,6 +299,24 @@ button {
 }
 
 /* Customer */
+.customer-section {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.customer-intro {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0 auto 72px;
+}
+.customer-list {
+  display: flex;
+}
+.customer-item {
+  text-decoration: none;
+}
 
 /* /Main */
 
