@@ -209,6 +209,18 @@ button {
   margin-bottom: 8px;
 }
 
+.dignity-icon-container {
+  width: 264px;
+  height: 112px;
+  background-color: var(--light);
+}
+.dignity-link {
+  width: 100%;
+  height: 100%;
+}
+.digntiy-icon {
+}
+
 .dignity-item {
   width: 264px;
 }
@@ -320,7 +332,8 @@ button {
   background-color: var(--primary-band);
 }
 
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--pressed-state);
 }
 
@@ -339,9 +352,23 @@ button {
 }
 .customer-list {
   display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 .customer-item {
+  width: 168px;
+  height: 88px;
   text-decoration: none;
+}
+
+.customer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--subtitle-text);
+  border-radius: 4px;
 }
 
 /* /Main */
@@ -409,7 +436,8 @@ button {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: var(--success);
 }
 
