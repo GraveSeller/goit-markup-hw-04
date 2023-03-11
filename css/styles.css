@@ -296,6 +296,21 @@ button {
   color: var(--text);
   text-align: center;
   margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-item {
+}
+
+.team-social-link {
+}
+.team-social-icon {
 }
 
 /* Customer */
